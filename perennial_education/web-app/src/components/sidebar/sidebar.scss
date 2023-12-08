@@ -4,17 +4,19 @@
     align-items: center;
     justify-items: center;
     background-color: whitesmoke;
+    border: none;
     color: black;
 
 
     .bg{
 
         position: fixed;
+        z-index: 99;
         top:0;
         left: 0;
         bottom: 0;
         width: 400px;
-        background: whitesmoke;
+        background-color: whitesmoke;
 
         .links{
             position: absolute;
@@ -24,10 +26,13 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            background-color: inherit;
             gap: 20px;
 
             a{
-                font-size: 40px;
+                font-size: 30px;
+                font-weight: medium;
+                color: black;
             }
 
 
@@ -37,15 +42,20 @@
     button{
 
         width: 50px;
+        z-index: 99 ;
         height: 50px;
         border-radius: 50%;
         position: fixed;
-        top: 25px;
-        left: 25px;
+        top: 28px;
+        left: 21px;
         height: 25px;
-        background-color: transparent;
-        border: none;
+        background-color: whitesmoke;
+        border: rgba($color: #0000, $alpha: 0);
         cursor: pointer;
+
+        svg{
+            background-color: whitesmoke;
+        }
 
     }
 

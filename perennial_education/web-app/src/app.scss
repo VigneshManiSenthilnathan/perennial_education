@@ -3,22 +3,30 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "DM Sans";
+    //background-color: #40146c;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 
 }
 
 body{
-    background-color: #3b6282;
+    //background-color: #40146c;
     color: lightgray;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    background-color: whitesmoke;
 }
 
 section{
