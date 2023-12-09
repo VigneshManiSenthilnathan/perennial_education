@@ -1,6 +1,8 @@
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -15,8 +17,7 @@ html{
     //background-color: #40146c;
 
     -ms-overflow-style: none;
-    scrollbar-width: none; 
-
+    scrollbar-width: none;
 }
 
 body{
@@ -33,22 +34,4 @@ section{
     height: 100vh;
     width: 100vw;
     scroll-snap-align: center;
-}
-
-
-.course{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-
-    .box{
-        width: 200px;
-        height: 200px;
-        background-color: white;
-
-    }
-
 }

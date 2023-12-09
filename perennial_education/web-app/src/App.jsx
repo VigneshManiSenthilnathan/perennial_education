@@ -1,6 +1,9 @@
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
+import About from "./components/about/About";
+import Team from "./components/team/Team";
+import Contact from "./components/contact/Contact";
 import Test from "./Test";
 
 
@@ -16,13 +19,23 @@ const App = () => {
       <Hero />
     </section>
 
-    <section id="About"><Parallax type="about"/></section>
-    <section>About</section>
-    <section id="Our Team"><Parallax type="team"/></section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
-    <section id="Contact Us">Contact</section>
+    <section id="About">
+      <Parallax type="about"/>
+    </section>
+
+
+    <About />
+
+
+    <section id="Our Team">
+      <Parallax type="team"/>
+    </section>
+
+    <Team />
+
+    <section id="Contact Us">
+      contact
+    </section>
  
   </div>
 };

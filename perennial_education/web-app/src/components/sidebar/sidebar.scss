@@ -4,7 +4,8 @@
     align-items: center;
     justify-items: center;
     background-color: whitesmoke;
-    border: none;
+    border: transparent;
+    outline: none !important;; 
     color: black;
 
 
@@ -50,7 +51,8 @@
         left: 21px;
         height: 25px;
         background-color: whitesmoke;
-        border: rgba($color: #0000, $alpha: 0);
+        border: transparent;
+
         cursor: pointer;
 
         svg{
