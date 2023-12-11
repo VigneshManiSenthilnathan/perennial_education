@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import About from "./components/about/About";
 import Team from "./components/team/Team";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/contact/Contact2";
 import Test from "./Test";
 
 
@@ -34,7 +34,7 @@ const App = () => {
     <Team />
 
     <section id="Contact Us">
-      contact
+      <Contact />
     </section>
  
   </div>
