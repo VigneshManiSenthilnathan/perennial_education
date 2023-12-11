@@ -33,7 +33,7 @@ const App = () => {
 
     <Team />
 
-    <section id="Contact Us">
+    <section className="contact_class" id="Contact Us">
       <Contact />
     </section>
  
